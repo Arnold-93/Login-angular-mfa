@@ -1,3 +1,7 @@
+# Proyecto simulacion doble seguridad MFA
+ Para obtener el codigo MFA se deben ejecutar el siguiente servicio lambda, su duracion es de 15 s
+ ```https://63l2p501rj.execute-api.us-east-1.amazonaws.com/enable-mfa```
+
 # LoginMfa
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.

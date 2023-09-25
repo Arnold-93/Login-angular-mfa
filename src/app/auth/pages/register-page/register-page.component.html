@@ -1,0 +1,49 @@
+<form class="login100-form"
+      [formGroup]="myForm"
+      (ngSubmit)="insert()"
+      autocomplete="off">
+
+    <span class="login100-form-title p-b-49">
+        Insertar usuario
+    </span>
+
+    <div class="wrap-input100 m-b-23">
+        <span class="label-input100">Usurio</span>
+        <input class="input100"
+               type="text"
+               formControlName="usernames"
+               placeholder="Ingrese usuario">
+        <span class="focus-input100"></span>
+    </div>
+
+    <div class="wrap-input100">
+        <span class="label-input100">Contraseña</span>
+        <input class="input100"
+               type="password"
+               formControlName="password"
+               placeholder="Ingrese contraseña">
+        <span class="focus-input100"></span>
+    </div>
+
+    <div class="wrap-input100">
+        <span class="label-input100">Rol</span>
+        <input class="input100"
+               type="text"
+               formControlName="rol"
+               placeholder="Ingrese rol">
+        <span class="focus-input100"></span>
+    </div>
+
+    <div class="text-right p-t-8 p-b-31"></div>
+
+    <div class="container-login100-form-btn">
+        <div class="wrap-login100-form-btn">
+            <div class="login100-form-bgbtn"></div>
+            <button class="login100-form-btn"
+                    type="submit">
+                Guardar
+            </button>
+        </div>
+    </div>
+
+</form>    
